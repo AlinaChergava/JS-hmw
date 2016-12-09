@@ -1,8 +1,9 @@
-var i=0;
-while(i<3)
-{
-  console.log('# # # # #')
-  console.log(' # # # # #')
-  i++;
+var i = 1;
+while (i < 8) {
+    if (i % 2 == 1) {
+        console.log('# # # # #');
+    } else {
+        console.log(' # # # # #');
+    }
+    i++;
 }
-console.log('# # # # #');
